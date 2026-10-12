@@ -1,1 +1,5 @@
-# Add code here
+services:
+  express-app:
+    build: .
+    ports:
+      - "4567:4567"
